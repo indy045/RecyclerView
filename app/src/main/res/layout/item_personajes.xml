@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv1titulo"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv1"
+                    android:layout_width="150dp"
+                    android:layout_height="147dp"
+                    app:srcCompat="@drawable/goku" />
+
+                <TextView
+                    android:id="@+id/tv2descripcion"
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="viewStart"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
